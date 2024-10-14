@@ -1,0 +1,67 @@
+#inicio {
+    display: flex;
+    flex-direction: row;
+
+    .sectionOutubroRosa {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+        width: 50%;
+        height: 87vh;
+
+        img {
+            width: 50%;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            width: 159px;
+            height: 63px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.5) 2px 4px 4px 0px;
+            color: #ED4590;
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            border: 1px solid #ED4590;
+            background-color: #fdc3d4;
+            cursor: url('./img/flor\ cursor.png'), auto;
+        }
+
+        a:hover {
+            border: 1px;
+            background: linear-gradient(to bottom, #fdc3d4, #ED4590);
+            color: white;
+        }
+
+        a:active {
+            cursor: url('./img/flower.png'), auto;
+            box-shadow: rgba(0, 0, 0, 0.5) inset 2px 4px 4px 0px;
+        }
+    }
+
+    .section-texto {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+        height: 83vh;
+    }
+
+    .redesSociais {
+        display: none;
+        justify-content: start;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+
+        a img {
+            width: 52px;
+        }
+    }
+}

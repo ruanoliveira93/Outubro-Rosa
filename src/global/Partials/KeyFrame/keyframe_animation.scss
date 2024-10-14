@@ -1,0 +1,32 @@
+#myAnimation {
+    animation: mymove 5s ease backwards;
+}
+
+.textAnimation {
+    animation: texto 1s ease backwards;
+}
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+        transform: rotateX(95deg);
+        transform: rotate3d(10deg);
+    }
+
+    50% {}
+
+    100% {}
+}
+
+@keyframes mymove {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+
+    }
+
+    50% {}
+
+    100% {}
+}

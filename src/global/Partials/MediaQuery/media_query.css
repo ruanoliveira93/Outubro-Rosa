@@ -1,0 +1,62 @@
+@media (max-width: 1350px) and (min-width: 960px) {
+  .principal .inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .principal .inicio .sectionOutubroRosa {
+    width: 100%;
+    max-width: 900px;
+  }
+  .principal .inicio .section-texto {
+    width: 100%;
+    max-width: 900px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 320px) {
+  .header-topo {
+    display: block;
+    height: 179px;
+  }
+  .header-topo .section-logo {
+    width: 100%;
+    margin: 0;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-topo .navbar {
+    scale: 0.9;
+  }
+  .header-topo .section-logo img {
+    max-width: 200px;
+  }
+  .header-topo .navbar {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .principal .inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .principal .inicio .section-texto {
+    width: 110%;
+    max-width: 980px;
+    scale: 0.8;
+  }
+  .principal .inicio .sectionOutubroRosa {
+    max-width: 400px;
+    width: 100%;
+  }
+  .principal .inicio .sectionOutubroRosa img {
+    max-width: 500px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=media_query.css.map */

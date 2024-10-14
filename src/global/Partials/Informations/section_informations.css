@@ -1,0 +1,37 @@
+#informations {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+#informations h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+#informations .section-info {
+  display: flex;
+  gap: 200px;
+  width: 100%;
+  max-width: 80%;
+}
+#informations .section-info .warning {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#informations .section-info .warning a {
+  cursor: url("./img/cursor.png"), auto;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px 2px;
+}
+#informations .section-info a:active {
+  cursor: url("./img/click.png"), auto;
+  box-shadow: rgba(0, 0, 0, 0.5) inset 2px 2px 2px 2px;
+}
+#informations .section-info img {
+  width: 100%;
+}/*# sourceMappingURL=section_informations.css.map */

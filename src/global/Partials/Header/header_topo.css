@@ -1,0 +1,47 @@
+.header-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 13vh;
+}
+.header-topo .section-logo {
+  margin-left: 40px;
+}
+.header-topo .section-logo a.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+}
+.header-topo .section-logo a.logo img {
+  width: 250px;
+  position: absolute;
+}
+.header-topo .section-logo a.logo h1 {
+  margin: 0 auto;
+  font-size: 28px;
+  text-indent: -99999px;
+}
+.header-topo .navbar {
+  margin-right: 40px;
+}
+.header-topo .navbar .lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  list-style: none;
+  padding: 0;
+}
+.header-topo .navbar .lista li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #ED4590;
+}
+.header-topo .navbar .lista li a:hover {
+  color: rgba(237, 69, 144, 0.3333333333);
+}/*# sourceMappingURL=header_topo.css.map */
