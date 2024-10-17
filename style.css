@@ -457,7 +457,7 @@ body {
 }
 
 #doacoes {
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
@@ -570,7 +570,6 @@ body {
 @media (max-width: 1420px) and (min-width: 1020px) {
   #doacoes {
     background-image: none;
-    display: flex;
     flex-direction: row;
   }
   #doacoes .caixaTexto {
@@ -593,7 +592,6 @@ body {
 @media (max-width: 1020px) {
   #doacoes {
     width: 100%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
