@@ -1,62 +1,163 @@
-@media (max-width: 1350px) and (min-width: 960px) {
-  .principal .inicio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .principal .inicio .sectionOutubroRosa {
+@media (max-width: 900px) {
+  #campanhas {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    max-width: 900px;
   }
-  .principal .inicio .section-texto {
-    width: 100%;
-    max-width: 900px;
+  #campanhas .cards {
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    width: 90%;
   }
 }
-@media (max-width: 1000px) and (min-width: 320px) {
-  .header-topo {
-    display: block;
-    height: 179px;
-  }
-  .header-topo .section-logo {
-    width: 100%;
-    margin: 0;
-    height: 130px;
+@media (max-width: 1420px) and (min-width: 1020px) {
+  #doacoes {
+    background-image: none;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+  }
+  #doacoes .caixaTexto {
+    height: 300px;
+    text-align: center;
+  }
+  #doacoes .caixaTexto h2 {
+    width: 100%;
+    font-size: 40px;
+  }
+  #doacoes .caixaTexto p {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+  #doacoes .box {
+    width: 600px;
+  }
+}
+@media (max-width: 1020px) {
+  #doacoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    background-image: none;
   }
-  .header-topo .navbar {
-    scale: 0.9;
+  #doacoes .caixaTexto {
+    height: 300px;
   }
-  .header-topo .section-logo img {
-    max-width: 200px;
-  }
-  .header-topo .navbar {
-    margin: 0 auto;
+  #doacoes .caixaTexto h2 {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+  }
+  #doacoes .caixaTexto p {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+  #doacoes .box {
+    width: 100%;
+  }
+}
+@media (max-width: 960px) {
+  .header-topo .section-logo {
+    scale: 0.8;
+    margin: 0;
+  }
+  .header-topo .navbar {
+    display: none;
+  }
+  .header-topo .dropdown {
+    display: inline-block;
+    margin: 0;
+  }
+  .header-topo .dropdown .dropbtn {
+    scale: 0.6;
+  }
+  .header-topo .dropdown .dropdown-content {
+    right: 10%;
     padding: 0;
   }
-  .principal .inicio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .header-topo .dropdown .dropdown-content li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ED4590;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
   }
-  .principal .inicio .section-texto {
-    width: 110%;
-    max-width: 980px;
+  .header-topo .dropdown .dropdown-content li a:hover {
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    background-color: #f3cedf;
+    color: rgba(237, 69, 144, 0.3333333333);
+  }
+}
+@media (max-width: 1260px) {
+  #principal #inicio {
+    flex-direction: column;
+    width: 100%;
+  }
+  #principal #inicio .sectionOutubroRosa {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #principal #inicio .sectionOutubroRosa img {
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 600px;
+  }
+  #principal #inicio .sectionOutubroRosa a {
     scale: 0.8;
   }
-  .principal .inicio .sectionOutubroRosa {
-    max-width: 400px;
+  #principal #inicio .section-texto {
     width: 100%;
+    min-height: 100vh;
   }
-  .principal .inicio .sectionOutubroRosa img {
-    max-width: 500px;
+  #principal #inicio .section-texto .carousel > .carousel-inner > .carousel-item > .d-block {
+    text-align: center;
+  }
+  #principal #inicio .section-texto .carousel > .carousel-inner > .carousel-item > .d-block h2 {
     width: 100%;
+    scale: 0.9;
+    padding: 0;
+    margin: 0;
+  }
+  #principal #inicio .section-texto .carousel > .carousel-inner > .carousel-item > .d-block p.fs-4 {
+    width: 100%;
+    padding: 0 5px;
+    scale: 0.9;
+    margin: 0;
+  }
+  #principal #inicio .section-texto .redesSociais {
+    justify-content: center;
+  }
+  #principal #inicio .section-texto .redesSociais a img {
+    scale: 0.8;
+  }
+}
+@media (max-width: 1280px) {
+  #informations {
+    max-width: 100%;
+    height: 100vh;
+    gap: 30px;
+  }
+  #informations h2 {
+    font-size: 18pt;
+  }
+  #informations .section-info {
+    width: 35%;
+    gap: 50px;
+    flex-direction: column;
+  }
+  #section-exames {
+    justify-content: center;
+  }
+  #section-equipe-medica {
+    justify-content: center;
+  }
+  #section-tratamento {
+    justify-content: center;
   }
 }/*# sourceMappingURL=media_query.css.map */

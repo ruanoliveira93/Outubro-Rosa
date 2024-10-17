@@ -38,6 +38,15 @@
   cursor: url("./img/flower.png"), auto;
   box-shadow: rgba(0, 0, 0, 0.5) inset 2px 4px 4px 0px;
 }
+#inicio .sectionOutubroRosa .dropbtn {
+  background-color: #f89bae;
+  color: white;
+  padding: 16px 50px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
 #inicio .section-texto {
   display: none;
   justify-content: center;

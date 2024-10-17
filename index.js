@@ -6,6 +6,7 @@ console.log(btn, btnHeader)
 // Sections Campanhas/Doações/Sobre/Contato
 let campanha = document.getElementById('campanhas')
 let doacoes = document.getElementById('doacoes')
+let dropBtn = document.querySelectorAll('.dropdown .dropdown-content li a')
 
 // Sections Informações/Exames/Equipe Médica/Tratamento
 let information = document.getElementById('informations')
@@ -18,10 +19,18 @@ btnHeader[1].addEventListener('click', () => {
     campanha.style.display = 'flex'
 })
 
+dropBtn[0].addEventListener('click', () => {
+    campanha.style.display = 'flex'
+})
+
+// Botão Doações
 btnHeader[2].addEventListener('click', () => {
     doacoes.style.display = 'grid'
 })
 
+dropBtn[1].addEventListener('click', () => {
+    doacoes.style.display = 'grid'
+})
 
 // Botão Saiba Mais
 btn[0].addEventListener('click', () => {

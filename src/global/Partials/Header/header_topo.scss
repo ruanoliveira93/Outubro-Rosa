@@ -30,6 +30,7 @@
 
     .navbar {
         margin-right: 40px;
+        display: flex;
 
         .lista {
             display: flex;
@@ -52,4 +53,60 @@
             }
         }
     }
+
+    .dropbtn {
+        border: 2px solid #f89bae;
+        background: none;
+        color: white;
+        padding: 0px 22px;
+        font-size: 50px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        scale: 0.8;
+        box-shadow: rgba(0,0,0,0.2) 2px 2px 2px 2px;
+      }
+      
+    
+      .dropdown {
+        position: relative;
+        display: none;
+        margin-right: 60px;
+      }
+      
+    
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+        z-index: 1;
+      }
+      
+      .dropdown-content {
+            list-style: none;
+    
+          a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+    
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #f9f9f9;
+        color: #e6bdcf;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #e6bdcf;
+        box-shadow: rgba(0,0,0,0.2) inset 2px 2px 2px 2px;
+      }
 }
