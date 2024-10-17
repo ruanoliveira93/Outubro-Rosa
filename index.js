@@ -25,11 +25,11 @@ dropBtn[0].addEventListener('click', () => {
 
 // Botão Doações
 btnHeader[2].addEventListener('click', () => {
-    doacoes.style.display = 'grid'
+    doacoes.style.display = 'flex'
 })
 
 dropBtn[1].addEventListener('click', () => {
-    doacoes.style.display = 'grid'
+    doacoes.style.display = 'flex'
 })
 
 // Botão Saiba Mais
